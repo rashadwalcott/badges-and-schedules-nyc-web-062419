@@ -12,7 +12,7 @@ list
 end
 
 def assign_rooms(attendees)
-  room_assignment = (1..7).to_a
+  room_assignment = Array(1..7).to_a
   room_assignment.each_with_index {|item,index| "Hello,#{attendees[index]}! You'll be assigned to room #{item[index]}!"
 end
 =begin message=[]

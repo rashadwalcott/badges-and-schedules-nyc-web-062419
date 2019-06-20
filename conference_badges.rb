@@ -21,5 +21,5 @@ def assign_rooms(attendees)
   room_assignment.each do |room|
     assign << "You'll be assigned to room #{room}!"
   end
-  message.concat(assign)
+  message.join(assign)
 end

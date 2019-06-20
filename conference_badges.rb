@@ -22,5 +22,5 @@ message=[]
   room_assignment.each do |room|
     assign << 
   end
-  message.join(assign).to_str
+  message
 end

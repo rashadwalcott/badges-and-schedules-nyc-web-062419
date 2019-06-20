@@ -12,5 +12,7 @@ list
 end
 
 def assign_rooms(attendees)
-  room_assignment = 
+  room_assignment = (1..7).to_a
+  
+  
 end

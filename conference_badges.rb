@@ -14,7 +14,7 @@ end
 def assign_rooms(attendees)
   room_assignment = Array (1..7)
   
-  room_assignment.each_with_index {|item,index| "Hello,#{attendees[index]}! You'll be assigned to room #{room_assignment[index]}!"}
+  room_assignment.each_with_index {|item,index| "Hello,#{attendees[item]}! You'll be assigned to room #{room_assignment[item]}!"}
 end
 =begin message=[]
   attendees.each do |attend|

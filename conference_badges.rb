@@ -13,7 +13,7 @@ end
 
 def assign_rooms(attendees)
   room_assignment = Array (1..7)
- attendees.each_with_index do |attendees,
+ attendees.each_with_index do |attendee
 end
   
 =begin message=[]

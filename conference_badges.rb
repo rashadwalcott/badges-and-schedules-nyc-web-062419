@@ -18,13 +18,5 @@ def assign_rooms(attendees)
    message << "Hello, #{attendee}! You'll be assigned to room #{room_assignment[index]}!"
 end
   message
-=begin message=[]
-  attendees.each do |attend|
-    message << "Hello, #{attend}! 
-  end
-  assign =[]
-  room_assignment.each do |room|
-    assign << 
-  end
-=end  message
+
 end

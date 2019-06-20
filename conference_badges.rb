@@ -18,5 +18,4 @@ def assign_rooms(attendees)
    message << "Hello, #{attendee}! You'll be assigned to room #{room_assignment[index]}!"
 end
   message
-
 end

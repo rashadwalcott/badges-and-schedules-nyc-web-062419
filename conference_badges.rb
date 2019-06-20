@@ -13,11 +13,11 @@ end
 
 def assign_rooms(attendees)
   room_assignment = Array (1..7)
-  attendees.each_with_index {|val,i|
+  attendees.each_with_index {|val,i| "Hello, #{val}!"
   
 message=[]
   attendees.each do |attend|
-    message << "Hello, #{attend}! You'll be assigned to room #{room_assignment}!"
+    message << "Hello, #{attend}! 
   end
   assign =[]
   room_assignment.each do |room|

@@ -13,7 +13,9 @@ end
 
 def assign_rooms(attendees)
   room_assignment = (1..7).to_a
-  message=[]
+  
+  
+=begin message=[]
   attendees.each do |attend|
     message << "Hello, #{attend}!"
   end
@@ -21,5 +23,5 @@ def assign_rooms(attendees)
   room_assignment.each do |room|
     assign << "You'll be assigned to room #{room}!"
   end
-  message.join(assign).to_str
+=end message.join(assign).to_str
 end
